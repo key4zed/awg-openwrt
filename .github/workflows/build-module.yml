@@ -27,6 +27,11 @@ jobs:
             target: ramips
             subtarget: mt7621
             vermagic: "9c242f353867f49a96054ff8c9f2c460"
+          - tag: "23.05.5"
+            pkgarch: x86_64
+            target: x86
+            subtarget: 64
+            vermagic: "59d1431675acc6823a33c7eb2323daeb"
 
     steps:
       - uses: actions/checkout@v4
