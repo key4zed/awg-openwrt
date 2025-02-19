@@ -35,7 +35,7 @@ jobs:
           - tag: "23.05.4"
             pkgarch: aarch64
             target: rockchip
-            subtarget: rockchip
+            subtarget: armv8
             vermagic: "2d23b8a4ca7c461cce81c262d535bcf7"
 
             
